@@ -1,0 +1,22 @@
+body {
+	background-color: lightblue;
+}
+
+.logo {
+	height: 35px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 35px;
+}
+
+.form-box {
+	margin-top: 35px;
+	background-color: white;
+	height: 600px;
+	width: 320px;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin-left: auto;
+	margin-right: auto;
+}
