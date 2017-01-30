@@ -1,5 +1,5 @@
 body {
-	background-color: lightblue;
+	background-color: #428ff4;
 }
 
 .logo {
@@ -10,13 +10,43 @@ body {
 	margin-top: 35px;
 }
 
-.form-box {
+.sign-up-header {
+	text-align: center;
+}
+
+body label, body button {
+	display: block;
+}
+
+fieldset {
 	margin-top: 35px;
 	background-color: white;
-	height: 600px;
+	height: 450px;
 	width: 320px;
 	padding-left: 40px;
 	padding-right: 40px;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+#email, #password, button {
+	border: 2px lightgray solid;
+	padding-left: 15px;
+	padding-right: 15px;
+	width: 286px;
+	height: 21px;
+	border-radius: 3px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.footer {
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	/*make URL also white*/
 }
