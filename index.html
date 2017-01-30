@@ -17,11 +17,16 @@
 
 	<div class="form-box">
 		<form class="" action="/some-server-endpoint" method="post">
-			<fieldset name="sign-up">
-				<h3>Sign up</h3>
+		<fieldset name="sign-up">
+			<h3>Sign up</h3>
 			<label for="email">Email</label>
-				
+				<input type="email" placeholder="foo@bar.com" name="email" id="email">
+			<label for="password">Password</label>
+				<input type="password" placeholder="1234passw0rd" name="password" id="password">
+			<button type="submit">Sign up</button>
+			<a href="">Forgot password?</a>
+		</fieldset>
 	</div>
-
+	<p>Already have an account? <a href="">Log In</a>
 </body>
 </html>
