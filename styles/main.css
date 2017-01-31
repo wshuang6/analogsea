@@ -12,6 +12,7 @@ body {
 
 .sign-up-header {
 	text-align: center;
+	font-size: 30px;
 }
 
 body label, body button {
@@ -21,7 +22,7 @@ body label, body button {
 fieldset {
 	margin-top: 35px;
 	background-color: white;
-	height: 450px;
+	height: 420px;
 	width: 320px;
 	padding-left: 40px;
 	padding-right: 40px;
@@ -29,7 +30,23 @@ fieldset {
 	margin-right: auto;
 }
 
-#email, #password, button {
+button {
+	border-radius: 3px;
+	border: 2px;
+	font-size: 22px;
+	width: 320px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-top: 15px;
+	color: white;
+	background-color: #34c132;
+}
+
+button:hover {
+	background-color: green;
+}
+
+#email, #password {
 	border: 2px lightgray solid;
 	padding-left: 15px;
 	padding-right: 15px;
@@ -44,9 +61,20 @@ fieldset {
 	margin-bottom: 15px;
 }
 
+.forgot-pw a:link, .forgot-pw a:visited {
+	color: gray;
+}
+
+.forgot-pw {
+	text-align: center;
+}
+
 .footer {
 	text-align: center;
 	color: white;
 	font-weight: bold;
-	/*make URL also white*/
+}
+
+.footer a:link, .footer a:visited {
+	color: white;
 }
